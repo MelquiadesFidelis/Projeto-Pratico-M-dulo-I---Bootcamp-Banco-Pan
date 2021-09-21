@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simulação de Financiamento</title>
+
+        <link rel="stylesheet" href="CSS.css">
+
+    </head>
+
+    <body>
+        <h1>Simulação de finaciamento</h1>
+        
+        <div class="fb">
+            <div>
+                <p>Valor:</p>
+                <input id="valor" type="number" value="200000"/>
+               
+            </div>
+            
+            <div>
+                <p>Prazo (anos):</p>
+                <input id="prazo" type="number" value="20"/>
+            </div>
+            
+            <div>
+                <p>Juros ao ano:</p>
+                <input id="juros" type="number" value="0.08"/>
+            </div>  
+        </div>
+
+        <div class="fb">
+            <button onclick="simular()">Simular</button>
+        </div>
+        
+        <h1>Resultado</h1>
+
+        <div class="fb">
+            <div>
+                <p>Prazo (meses):</p>
+                <input id="r_prazo" type="number" value="240"/>
+               
+            </div>
+            
+            <div>
+                <p>Juros ao mês:</p>
+                <input id="r_juros_mes" type="number" value="0.006434030110003"/>
+            </div>
+            
+            <div>
+                <p>Juros acumulado:</p>
+                <input id="r_juros_acumulado" type="number" value="155060.13"/>
+            </div>  
+        </div>
+  
+        <div id="class2" class="bottom_fb">
+            
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

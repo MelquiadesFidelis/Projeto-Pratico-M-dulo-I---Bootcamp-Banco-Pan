@@ -1,0 +1,84 @@
+h1 {
+    color: #00AFA2;
+    text-align: center;
+}
+
+
+p {
+    margin-bottom: 0%;
+}
+
+.fb {
+    display: flex;
+    background-color:blanchedalmond;
+    color:#0c0c0c;
+	/* definimos o quão arredondado irá ficar nosso box */
+	
+    width:60%;
+    margin-left: 20%;
+    margin-left: 20%;
+    justify-content: center;
+}
+
+.fb > div {
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    margin-right: auto;
+    margin-top: 5px;
+    margin: 6px;
+    border: 2px solid #00AFA2;
+    padding: 6px 10%;
+}
+
+input {
+    text-align: center;
+}
+
+.p_result {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00AFA2;
+}
+
+.fb2 {
+    display: flex;
+}
+
+.fb2 > div {
+    text-align: start;
+    margin: 6px;
+    
+}
+
+.fb3 {
+    display: flex;
+}
+
+.fb3 > div {
+    text-align: start;
+    margin: 6px;
+    margin-right: auto;
+}
+
+table {
+    margin-top: 2%;
+    width: 60%;
+  }
+  table th {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00AFA2;
+    text-align: start;
+  }
+  table td {
+    background-color:blanchedalmond;
+    color: #0c0c0c;
+  }
+
+.bottom_fb {
+    display: flex;
+    justify-content: center;
+}
